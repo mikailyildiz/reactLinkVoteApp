@@ -1,0 +1,52 @@
+.link-list-item {
+  .card-body {
+    border-left: 1px solid #eee;
+    padding: 0.2rem 0.7rem;
+  }
+
+  .card-title {
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-text {
+    color: #6c757d;
+    font-size: 0.8rem;
+  }
+
+  .vote {
+    text-align: center;
+    margin: auto;
+    .number {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+  }
+
+  .btn-delete {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    border-radius: 50%;
+    padding: 0;
+    margin: auto;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.25rem;
+    display: none;
+  }
+
+  .item-controls {
+    .btn-down-vote {
+      float: right;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    .btn-delete {
+      display: initial;
+    }
+  }
+}

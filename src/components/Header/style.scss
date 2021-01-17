@@ -1,0 +1,29 @@
+.header {
+  padding: 10px 0 5px;
+  border-bottom: 1px solid #eee;
+  .logo {
+    margin: 0;
+    span {
+      color: #007bff;
+    }
+  }
+  .app-title {
+    text-align: right;
+    margin: 0;
+    span {
+      font-weight: 300;
+    }
+    small {
+      font-weight: 500;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .logo {
+      font-size: 1.5rem;
+    }
+    .app-title {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.toast {
+  position: absolute;
+  top: 50px;
+  right: calc(50% - 150px);
+  opacity: 1;
+  width: 300px;
+  z-index: 99;
+
+  &.success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+}

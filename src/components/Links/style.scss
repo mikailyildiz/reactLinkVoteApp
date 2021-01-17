@@ -1,0 +1,19 @@
+.page-links {
+  margin-top: 15px;
+  .page-wrap {
+    width: 100%;
+    max-width: 350px;
+  }
+  .page-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  .btn-new-link {
+    float: right;
+  }
+  .footer {
+    padding-top: 10px;
+    text-align: center;
+  }
+}

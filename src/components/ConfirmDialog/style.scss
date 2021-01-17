@@ -1,0 +1,30 @@
+.modal-backdrop {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+.modal {
+  &.show {
+    display: block;
+  }
+  .modal {
+    &-header {
+      border-bottom: 0;
+      background: #eee;
+    }
+    &-footer {
+      justify-content: center;
+      border-top: 0;
+    }
+    &-body {
+      text-align: center;
+    }
+  }
+  .btn-primary,
+  .btn-secondary {
+    min-width: 140px;
+  }
+}
